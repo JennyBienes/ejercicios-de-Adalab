@@ -1,5 +1,6 @@
 'use strict';
 document.querySelector(<span>Texto sin formato:</span>)
+const 
 
 // Objetivo:
 //   Debéis poner el texto que está en el span de la derecha del primer div
