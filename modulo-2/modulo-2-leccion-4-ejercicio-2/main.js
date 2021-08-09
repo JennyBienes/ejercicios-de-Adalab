@@ -1,7 +1,7 @@
 'use strict'
 
-function media(a, b, c ,d) {
-  return (a + b + c + d) / 4 ;
+function media(a, b, c ,d, e, f) {
+  return (a + b + c + d + e + f) / 6 ;
 }
-const mediaResult = media(3, 4, 5, 6);
+const mediaResult = media(10, 22, 59, 120, 5, 78);
 console.log('La media es:',  mediaResult);
