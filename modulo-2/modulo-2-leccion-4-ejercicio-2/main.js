@@ -1,7 +1,7 @@
 'use strict'
 
-function multi(a, b) {
-    return a * b;
-  }
-const multiResult = multi(40,10)
-console.log('cantidad', multiResult);
+function media(a, b, c ,d) {
+  return (a + b + c + d) / 4 ;
+}
+const mediaResult = media(3, 4, 5, 6);
+console.log('La media es:',  mediaResult);
