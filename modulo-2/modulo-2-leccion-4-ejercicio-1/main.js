@@ -1,6 +1,7 @@
-const amount = multiplicación(16, 56);
+'use strict'
 
-function multiplicación(a, b) {
+function multi(a, b) {
     return a * b;
   }
-  console.log('cantidad', amount);
+const multiResult = multi(40,10)
+console.log('cantidad', multiResult);
