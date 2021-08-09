@@ -1,7 +1,9 @@
 'use strict'
 
-function multi(a, b) {
-    return a * b;
-  }
-const multiResult = multi(40,10)
-console.log('cantidad', multiResult);
+function price(a) {
+  return (a) ;
+}
+const resultPrice = (380);
+const priceIva = (20 * (21 / 100) );
+const priceTotal = resultPrice + priceIva;
+console.log(`El precio sin IVA ${resultPrice} , el IVA (21%) ${priceIva} y el total ${priceTotal}`);
