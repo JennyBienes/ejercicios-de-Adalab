@@ -5,7 +5,7 @@ const adalaber1 = {
   age: '34',
   job: 'journalist'
 };
-console.log(adalaber1);
+console.log(adalaber1.name + adalaber1.age + adalaber1.job);
 
 
 const adalaber2 = {
@@ -13,4 +13,4 @@ const adalaber2 = {
   age: '25',
   job: 'actress'
 };
-console.log(adalaber2);
+console.log (adalaber2.name + adalaber2.age + adalaber2.job);
