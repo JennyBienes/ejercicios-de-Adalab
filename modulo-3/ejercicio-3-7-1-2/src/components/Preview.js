@@ -1,4 +1,7 @@
 const Preview = (props) => {
+  const paymentType = () => {
+
+  }
   return (
     <>
       <div className="preview">
@@ -7,7 +10,7 @@ const Preview = (props) => {
           <li>Nombre: {props.name}</li>
           <li>Email: {props.email}</li>
           <li>Región: {props.region}</li>
-          <li>Método de pago: {props.paymentType()}</li>
+          <li>Método de pago: {paymentType()}</li>
           <li>
             Has aceptado nuestros términos legales:{' '}
             {props.legal === true ? 'Sí' : 'No'}
